@@ -1,6 +1,6 @@
 # LEKCE 1
 ## Co nás čeká
-Dnes si povíme o základech 3D modelování. Také si povíme, co je Tinkercad, založíme si účet a vymodelujeme si své první modely.
+Dnes si povíme o základech 3D modelování. Také si povíme, co je Tinkercad, založíme si účet a vymodelujeme si své první modely. Také si otevřte tento formulář, který budete během lekce vyplňovat https://forms.gle/LmNVsW4jfmrWz1Ak7 . 
 
 ## 3D MODELOVÁNÍ
 Co znamená zkratka 2D a 3D? Co je podle vás 3D modelování? K čemu je 3D modelování dobré? Kdo všechno musí umět modelovat?
