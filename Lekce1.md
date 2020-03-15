@@ -5,6 +5,8 @@ Dnes si povíme o základech 3D modelování. Také si povíme, co je Tinkercad,
 ## 3D MODELOVÁNÍ
 Co znamená zkratka 2D a 3D? Co je podle vás 3D modelování? K čemu je 3D modelování dobré? Kdo všechno musí umět modelovat?
 
+Film v 3D https://www.youtube.com/watch?v=WhWc3b3KhnY.
+
 ## 3D TISK
 Jak to celé funguje?
 
