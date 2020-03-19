@@ -15,7 +15,11 @@ Byl úkol jednoduchý? S čím byl případně problém při vypracování?
 ## DNEŠNÍ TÉMA - modelujeme pizzu
 
 Na první lekci jsme si vyzkoušeli vytvořit různé jednoduché objekty. Nebylo by špatné pokračovat s tím, co máme všichni určitě rádi - jídlo. Proč bychom tedy nemohli vymodelovat pizzu? Pusťme se do toho.
-Nejprve si vymyslíme ingredience pro vytvoření náplně pro naši pizzu. Budou to: salám, houby, ananas, cibule, paprika.
+Podívejte se na tento obrázek, jak byste při modelování postupovali? Čím začít?
+
+![výsledná pizza](vysledek.png)
+
+Nejprve si vymodelujeme ingredience pro vytvoření náplně pro naši pizzu. Budou to: salám, houby, ananas, cibule, paprika. Nezačínáme "těstem", protože by nám na pracovní ploše mohlo překážet.
 
 ### ZAČÍNÁME MODELOVAT 
 Vytvořte plátek salámu.
