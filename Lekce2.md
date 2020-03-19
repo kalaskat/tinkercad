@@ -21,26 +21,26 @@ Nejprve si vymyslíme ingredience pro vytvoření náplně pro naši pizzu. Budo
 Vytvořte plátek salámu.
 Vyberte válec, změňte jeho výšku na 4 mm, průměr na 16 mm. Potom ho obarvěte na tmavočervenou barvu.
 
-!(krok 1)[lekce2_1.png]
+![krok 1](lekce2_1.png)
 
-!(krok 2)[lekce2_2.png]
+![krok 2](lekce2_2.png)
 
-!(krok 3)[lekce2_3.png]
+![krok 3](lekce2_3.png)
 
-!(krok 4)[lekce2_4.png]
+![krok 4](lekce2_4.png)
 
-!(krok 5)[lekce2_5.png]
+![krok 5](lekce2_5.png)
 
-!(krok 6)[lekce2_6.png]
+![krok 6](lekce2_6.png)
 
-!(krok 7)[lekce2_7.png]
+![krok 7](lekce2_7.png)
 
-!(krok 8)[lekce2_8.png]
+![krok 8](lekce2_8.png)
 
-!(krok 9)[lekce2_9.png]
+![krok 9](lekce2_9.png)
 
 ## DOMÁCÍ ÚKOL
 
 Do příště si vypracujte jiný pokrm, hamburger s hranolkami. 
 
-!(krok 10)[lekce2_10.png]
+![zadání DÚ](lekce2_10.png)
