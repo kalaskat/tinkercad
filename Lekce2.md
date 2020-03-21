@@ -43,6 +43,8 @@ Vyberte válec, změňte jeho výšku na 4 mm, průměr na 16 mm. Potom ho obarv
 
 ![krok 9](lekce2_9.png)
 
+Pokud budeme stíhat, začít modelovat dům.
+
 ## DOMÁCÍ ÚKOL
 
 Do příště si vypracujte jiný pokrm, hamburger s hranolkami. 
