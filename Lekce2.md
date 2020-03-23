@@ -2,7 +2,9 @@
 
 ## CO NÁS ČEKÁ
 
-Dnes si nejprve zopakujeme, co jsme si říkali minule a také co jsme minule stihli. Zkontrolujeme si domácí úkoly a práce z minula. Poté budeme pokračovat ve 3D modelování a vymodelujeme si pizzu. 
+Dnes si nejprve zopakujeme, co jsme si říkali minule a také co jsme minule stihli. Zkontrolujeme si domácí úkoly a práce z minula. Poté budeme pokračovat ve 3D modelování a vymodelujeme si pizzu.
+
+Zeptat se na změnu času výuky!
 
 ## OPAKOVÁNÍ
 
