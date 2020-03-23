@@ -52,3 +52,15 @@ Pokud budeme stíhat, začít modelovat dům.
 Do příště si vypracujte jiný pokrm, hamburger s hranolkami. 
 
 ![zadání DÚ](lekce2_10.png)
+
+## DODATEČNÉ ZADÁNÍ PRO RYCHLÍKY
+
+Dle návodu si vytvořte dům.
+
+![1](ukol3_1.png)
+
+![2](ukol3_2.png)
+
+![3](ukol3_3.png)
+
+![4](ukol3_4.png)
