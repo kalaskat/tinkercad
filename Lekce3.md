@@ -8,7 +8,9 @@ Matyáš - začít barák
 Andrej - dům
 
 Kdo nestihl v předchozí lekci vymodelovat dům, bude dneska pokračovat v modelování domu. Kdo má dům již hotový, přidá si dovnitř libovolné vybavení. 
-Dále si dle návodu vytvořte dopravní prostředek.
+Dále si dle návodu vytvořte dopravní prostředek nebo vesmírnou stanici.
+
+## Dopravní prostředek
 
 ![1](lekce3_1.png)
 
@@ -17,3 +19,14 @@ Dále si dle návodu vytvořte dopravní prostředek.
 ![3](lekce3_3.png)
 
 ![4](lekce3_4.png)
+
+## Vesmírná stanice
+
+![1](lekce4_1.png)
+
+![2](lekce4_2.png)
+
+![3](lekce4_3.png)
+
+![4](lekce4_4.png)
+
