@@ -35,6 +35,8 @@ Budeme používat stránku [repl.it](www.repl.it), kde budeme naše webové str�
 
 V horní části dokumentu musíte prohlížeči sdělit, jakou verzi HTML vaše stránka používá. HTML je vyvíjející se jazyk a je pravidelně aktualizován. Většina hlavních prohlížečů podporuje nejnovější specifikace, což je HTML5. Starší webové stránky však mohou používat předchozí verze jazyka. Tohle za nás repl.it kontroluje samo.
 
+[ODKAZ NA TŘÍDU](https://repl.it/classroom/invite/qjsnxSM)
+
 ## HTML element
 
 ```html
