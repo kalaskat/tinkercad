@@ -78,7 +78,7 @@ Můžete vytvořit prvek odstavce, jako je tento:
 
 ### Úkol 3
 
-Vytvořte si na stránce odstavec s jedním odstavcem textu ![Lorem Ipsum](https://cs.lipsum.com/)
+Vytvořte si na stránce odstavec s jedním odstavcem textu [Lorem Ipsum](https://cs.lipsum.com/)
 
 ## Komentáře
 
@@ -202,11 +202,65 @@ Přidejte si nový element zápatí = konec stránky.
 ```html
 <footer>Vaše jméno</footer>
 ```
-Přidejte tomuto elementu id "konec"
+Přidejte tomuto elementu id "konec".
 
 Změňte svůj původní (externí) odkaz na (interní) odkaz. Změňte href na „#konec“ a text z „kočičí fotky“ na „Přejít na konec stránky“.
 
+## Vložení odkazu do textu
 
+Odkazy můžeme vkládat do textů v odstavcích (elementy p).
+
+```html
+<p>
+  Zde je <a target="_blank" href="http://google.com"> odkaz na google.com </a>, který můžete použít k vyhledávání.
+</p>
+```
+Zde je <a target="_blank" href="http://google.com"> odkaz na google.com </a>, který můžete použít k vyhledávání.
+
+Podívejme se na příklad: 
+Normální text je zabalen do prvku p:
+<p> Zde je ... text pro vás. </p> Další je kotevní prvek <a> (který vyžaduje uzavírací značku </a>):
+<a> ... </a> target je atribut kotevní značky, který určuje, kde se má odkaz otevřít, a hodnota "_blank" určuje otevření odkazu na nové kartě. href je atribut kotevní značky, který obsahuje adresu URL odkaz:
+<a href="http://freecodecamp.org"> ... </a> Text, „odkaz na freecodecamp.org“, v elementu zvaném kotevní text, zobrazí odkaz na kliknutí:
+<a href=" ... "> odkaz na freecodecamp.org </a> Konečný výstup z příkladu bude vypadat takto:
+
+### Úkol 9
+
+Nyní vložte existující prvek do nového prvku p (hned za existujícím hlavním prvkem). Nový odstavec by měl obsahovat text „Zobrazit více kočičích fotografií“, kde „kočičí fotografie“ je odkaz a zbytek textu je normální prostý text.
+
+Mělo by to tedy vypadat takto:
+<p>Zobrazit více <a href="http://freecatphotoapp.com" target="_blank">kočičích fotografií</a>.</p>
+
+### Mrtvé odkazy
+
+Někdy budete chtít na svůj web přidat odkazy, ale ještě nebudete vědět, kam přesně budou odkazovat (třeba na podstránku, kterou ještě nebudete mít vytvořenou).
+
+### Úkol 10
+
+Aktuální hodnota atributu ***href*** je odkaz, který odkazuje na „http://freecatphotoapp.com“. Chcete-li vytvořit mrtvý odkaz, nahraďte hodnotu atributu href znakem #, známým také jako hash symbol.
+
+Například: 
+```
+href = "#"
+```
+
+## Klikací obrázek s odkazem
+
+Místo textu můžete mít jako odkaz přímo nějaký obrázek. Zde je příklad:
+
+```html
+<a href="#"> <img src = "https://bit.ly/fcc-running-cats" alt = "Tři koťata běží směrem k fotoaparátu."> </a>
+```
+
+<a href="#"> <img src = "https://bit.ly/fcc-running-cats" alt = "Tři koťata běží směrem k fotoaparátu."> </a>
+
+Nezapomeňte použít # jako vlastnost prvku href vašeho prvku, abyste ji proměnili v mrtvý odkaz.
+
+### Úkol 11
+
+Udělejte z obrázku, který máte na stránce, mrtvý odkaz (pomocí href = "#").
+
+Jakmile to uděláte, umístěte kurzor na obrázek. Normálním ukazatelem kurzoru by se měl stát ukazatel odkazující na odkaz. Fotografie je nyní odkazem.
 
 
 
