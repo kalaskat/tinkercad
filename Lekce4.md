@@ -31,7 +31,9 @@ Například:
 
 S rostoucí složitostí webových stránek a webových aplikací konsorcium W3 aktualizuje specifikace HTML, aby bylo možné spolehlivě zobrazit webovou stránku v libovolném prohlížeči. Poslední verze HTML je HTML5.
 
-Budeme používat stránku repl.it, kde budeme naše webové stránky zkoušet.
+Budeme používat stránku [repl.it](www.repl.it), kde budeme naše webové stránky kódovat a testovat. 
+
+V horní části dokumentu musíte prohlížeči sdělit, jakou verzi HTML vaše stránka používá. HTML je vyvíjející se jazyk a je pravidelně aktualizován. Většina hlavních prohlížečů podporuje nejnovější specifikace, což je HTML5. Starší webové stránky však mohou používat předchozí verze jazyka. Tohle za nás repl.it kontroluje samo.
 
 ## HTML element
 
@@ -351,16 +353,39 @@ Vložte své okénko do elementu formuláře a do formuláře přidejte atribut 
 
 Přidáme do formuláře tlačítko pro odeslání. Kliknutím na toto tlačítko odešlete data z formuláře na adresu, kterou jste uvedli předtím.
 
-Zde je příklad tlačítka odeslání ve formuláři s okénkem:
+Tlačítko odeslat:
+
+```html
+<button type = "submit"> toto tlačítko odešle formulář </button>
+```
+
+Formulář s tlačítkem odeslat:
+
+```html
+<form action = "/ submit-cat-photo"> 
+<button type = "submit"> toto tlačítko odešle formulář </button>
+</form>
+```
+
+Zde je příklad formuláře s okénkem a s tlačítkem odeslání:
+
 ```html
 <form action = "/ submit-cat-photo"> 
 <input type = "text" placeholder = "toto je zástupný text">
 <button type = "submit"> toto tlačítko odešle formulář </button>
 </form>
 ```
-<button type = "submit"> toto tlačítko odešle formulář </button>
 
 ### Úkol 16
 
 Přidejte tlačítko jako poslední prvek uvnitř do formuláře (pod okénko) a jako text zadejte „Odeslat“.
+
+## Další tlačítka
+
+https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/create-a-set-of-radio-buttons
+https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/create-a-set-of-checkboxes
+https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/use-the-value-attribute-with-radio-buttons-and-checkboxes
+https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/check-radio-buttons-and-checkboxes-by-default
+https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/nest-many-elements-within-a-single-div-element
+
 
