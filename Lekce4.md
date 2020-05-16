@@ -262,5 +262,49 @@ Udělejte z obrázku, který máte na stránce, mrtvý odkaz (pomocí href = "#"
 
 Jakmile to uděláte, umístěte kurzor na obrázek. Normálním ukazatelem kurzoru by se měl stát ukazatel odkazující na odkaz. Fotografie je nyní odkazem.
 
+## Seznamy
 
+HTML má speciální prvek pro vytváření seznamů nebo seznamů stylů odrážek.
 
+Neuspořádané seznamy (nepotřebujeme tady číslování 1. 2. 3. atd) začínají otevíracím elementem ***<ul>***, po kterém následuje libovolný počet elementů ***<li>***. Konečně, neuspořádané seznamy uzavírají ***</ul>***.
+
+Například:
+
+```html
+<ul>
+   <li> mléko </li>
+   <li> sýr </li>
+</ul>
+```
+by vytvořil seznam stylů „mléko“ a „sýr“ s odrážkami.
+
+<ul>
+   <li> mléko </li>
+   <li> sýr </li>
+</ul>
+
+### Úkol 12
+Vytvořte neuspořádaný seznam tří věcí, které kočky milují ve spodní části stránky.
+
+### Číslované seznamy
+HTML má další speciální prvek pro vytváření uspořádaných seznamů nebo číslovaných seznamů.
+
+Seřazené seznamy začínají otevíracím elementem ***<ol>***, po kterém následuje libovolný počet elementů ***<li>***. Nakonec jsou uspořádané seznamy uzavřeny značkou ***</ol>***.
+
+Například:
+```html
+<ol>
+   <li> Garfield </li>
+   <li> Sylvester </li>
+</ol>
+```
+by vytvořil očíslovaný seznam "Garfield" a "Sylvester".
+
+<ol>
+   <li> Garfield </li>
+   <li> Sylvester </li>
+</ol>
+
+### Úkol 13
+
+Vytvořte uspořádaný seznam tří věcí, které kočky nejvíce nenávidí.
