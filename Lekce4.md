@@ -33,7 +33,7 @@ S rostoucí složitostí webových stránek a webových aplikací konsorcium W3 
 
 Budeme používat stránku repl.it, kde budeme naše webové stránky zkoušet.
 
-## HTML element
+## HTML element
 
 ```html
 <h1>Vítejte</h1>
@@ -173,6 +173,38 @@ Poté váš prohlížeč zobrazí text „Odkaz na Google“ jako odkaz, na kter
 ### Úkol 7
 
 Vytvořte prvek, který odkazuje na http://freecatphotoapp.com a jako jeho kotevní text obsahuje „kočičí fotografie“.
+
+### Odkaz na místo na stránce
+
+(Kotevní) prvky ***a*** lze také použít k vytvoření interních odkazů pro přechod na různé sekce na webové stránce. Třeba na konec stránky. Nebo na podsekci "Napište nám!".
+
+Každý HTML kód se dá rozdělit na několik častí a každá může mít svojí vlastní "občanku", které se říká ***id***. To musíme ale jednotlivým elementům přiřadit, jak? Uvidíte na příkladu. :)
+Chcete-li vytvořit interní odkaz, napište do ***href*** odkazu hash symbol ***#*** a id pro prvek, kam chceme odkazovat. 
+
+Příklad
+
+Normální nadpis 2
+```html
+<h2 Kontakty </h2>
+```
+Nadpis 2 s id "Kontakty"
+```html
+<h2 id = "Kontakty"> Kontakty </h2>
+```
+
+Zde máme odkaz, který říká, že chci vytvořit odkaz, když na něj kliknu, tak mě přeskočí stránka na sekci kontakty. 
+```html
+<a href="#contacts-header"> Kontakty </a>
+```
+### Úkol 8
+
+Přidejte si nový element zápatí = konec stránky.
+```html
+<footer>Vaše jméno</footer>
+```
+Přidejte tomuto elementu id "konec"
+
+Změňte svůj původní (externí) odkaz na (interní) odkaz. Změňte href na „#konec“ a text z „kočičí fotky“ na „Přejít na konec stránky“.
 
 
 
