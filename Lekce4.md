@@ -308,3 +308,59 @@ by vytvořil očíslovaný seznam "Garfield" a "Sylvester".
 ### Úkol 13
 
 Vytvořte uspořádaný seznam tří věcí, které kočky nejvíce nenávidí.
+
+## Okénka pro vyplnění návštěvníkem 
+
+Občas chceme, aby nám návštěvník vyplnil na stránce nějaké informace.
+
+Můžete vytvořit textový vstup takto:
+```html
+<input type = "text">
+```
+
+Všimněte si, že vstupní prvky jsou samouzavírací. NEMAJÍ UKONČOVACÍ ZNAČKU.
+
+Zástupný text je to, co se zobrazí ve vašem okénku předtím, než uživatel/návštěvník stránky něco zadá.
+
+Zástupný text můžete vytvořit takto:
+
+```html
+<input type = "text" placeholder = "toto je zástupný text">
+```
+
+Poznámka: Nezapomeňte, že vstupní prvky jsou samouzavírací.
+
+### Úkol 14
+
+Pod seznamy vytvořte okénko textu. Nastavte zástupný text na „cat cat URL“.
+
+### Webový formulář
+
+Webové formuláře, které skutečně odesílají data na server, můžete vytvářet čistě pomocí HTML. To lze provést zadáním akce na prvek formuláře. ***<form>*** ***</form>***
+
+Například:
+
+```html
+<form action = "/ adresa-kam-se-má-informace-nahrát"> </form>
+```
+
+### Úkol 15
+Vložte své okénko do elementu formuláře a do formuláře přidejte atribut ***action = "/ submit-cat-photo"***.
+
+### Tlačítko ODESLAT
+
+Přidáme do formuláře tlačítko pro odeslání. Kliknutím na toto tlačítko odešlete data z formuláře na adresu, kterou jste uvedli předtím.
+
+Zde je příklad tlačítka odeslání ve formuláři s okénkem:
+```html
+<form action = "/ submit-cat-photo"> 
+<input type = "text" placeholder = "toto je zástupný text">
+<button type = "submit"> toto tlačítko odešle formulář </button>
+</form>
+```
+<button type = "submit"> toto tlačítko odešle formulář </button>
+
+### Úkol 16
+
+Přidejte tlačítko jako poslední prvek uvnitř do formuláře (pod okénko) a jako text zadejte „Odeslat“.
+
