@@ -37,7 +37,7 @@ V horní části dokumentu musíte prohlížeči sdělit, jakou verzi HTML vaše
 
 [ODKAZ NA TŘÍDU](https://repl.it/classroom/invite/qjsnxSM)
 
-## HTML element
+## HTML elementy - NADPIS
 
 ```html
 <h1>Vítejte</h1>
@@ -61,7 +61,7 @@ Jediným rozdílem mezi otevíracími a zavíracími značkami je lomítko za ot
 
 Naučte se na klávesnici napsat ***<*** a ***>*** a ***/***. Napište nadpis stránky (element h1) jako "Cat Photo App"
 
-## Další elementy
+## DALŠÍ NADPISY
 
 Prvek h2 přidá na webovou stránku nadpis druhé úrovně.
 
@@ -71,7 +71,7 @@ Tento prvek informuje prohlížeč o struktuře vašich webových stránek. Prvk
 
 Vyzkoušejte si typy nadpisů h1 (Hlavní nadpis), h2 (Podnadpis 1), h3 (Podnadpis 2), h4 (Podnadpis 3).
 
-## Paragraf
+## ODSTAVEC - PARAGRAF
 
 Prvky p jsou preferovaným prvkem textu odstavce na webových stránkách. p je zkratka pro „odstavec“ (anglicky paragraph).
 Můžete vytvořit prvek odstavce, jako je tento:
@@ -84,7 +84,7 @@ Můžete vytvořit prvek odstavce, jako je tento:
 
 Vytvořte si na stránce odstavec s jedním odstavcem textu [Lorem Ipsum](https://cs.lipsum.com/)
 
-## Komentáře
+## KOMENTÁŘE
 
 Komentář je způsob, jak můžete zanechat komentáře pro ostatní vývojáře/programátory v rámci vašeho kódu, aniž by to ovlivnilo výsledný výstup, který se zobrazí koncovému uživateli.
 
@@ -122,7 +122,7 @@ Příklad použití, hlavní prvek se dvěma prvky vnořenými uvnitř:
 
 Vložte váš odstavec s Lorem ipsum do značky main. Nezapomeňte na ukončovací značku.
 
-## Obrázky
+## OBRÁZKY
 
 Na svůj web můžete přidat obrázky pomocí prvku ***img*** a pomocí atributu/vlastnosti ***src*** přejděte na adresu URL konkrétního obrázku. URL adresa je např. www.google.com.
 
@@ -160,7 +160,7 @@ https://bit.ly/fcc-relaxing-cat
 
 Nakonec nezapomeňte dát vašemu prvku ***img*** atribut ***alt*** s použitelným textem!
 
-## Odkazy
+## ODKAZY
 
 Prvky ***a*** (z angličtiny anchor = kotva) můžete použít k propojení s obsahem mimo vaši webovou stránku. Třeba s další webovou stránkou.
 
