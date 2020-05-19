@@ -189,16 +189,16 @@ Příklad
 
 Normální nadpis 2
 ```html
-<h2 Kontakty </h2>
+<h2> Kontaktujte nás </h2>
 ```
-Nadpis 2 s id "Kontakty"
+Nadpis 2 s id "kontakt"
 ```html
-<h2 id = "Kontakty"> Kontakty </h2>
+<h2 id = "kontakt"> Kontaktujte nás </h2>
 ```
 
 Zde máme odkaz, který říká, že chci vytvořit odkaz, když na něj kliknu, tak mě přeskočí stránka na sekci kontakty. 
 ```html
-<a href="#contacts-header"> Kontakty </a>
+<a href="#kontakt"> Kontaktujte nás </a>
 ```
 ### Úkol 8
 
@@ -216,17 +216,10 @@ Odkazy můžeme vkládat do textů v odstavcích (elementy p).
 
 ```html
 <p>
-  Zde je <a target="_blank" href="http://google.com"> odkaz na google.com </a>, který můžete použít k vyhledávání.
+  Zde je <a href="http://google.com"> odkaz na google.com </a>, který můžete použít k vyhledávání.
 </p>
 ```
-Zde je <a target="_blank" href="http://google.com"> odkaz na google.com </a>, který můžete použít k vyhledávání.
-
-Podívejme se na příklad: 
-Normální text je zabalen do prvku p:
-<p> Zde je ... text pro vás. </p> Další je kotevní prvek <a> (který vyžaduje uzavírací značku </a>):
-<a> ... </a> target je atribut kotevní značky, který určuje, kde se má odkaz otevřít, a hodnota "_blank" určuje otevření odkazu na nové kartě. href je atribut kotevní značky, který obsahuje adresu URL odkaz:
-<a href="http://freecodecamp.org"> ... </a> Text, „odkaz na freecodecamp.org“, v elementu zvaném kotevní text, zobrazí odkaz na kliknutí:
-<a href=" ... "> odkaz na freecodecamp.org </a> Konečný výstup z příkladu bude vypadat takto:
+Zde je <a href="http://google.com"> odkaz na google.com </a>, který můžete použít k vyhledávání.
 
 ### Úkol 9
 
