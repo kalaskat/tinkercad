@@ -393,11 +393,11 @@ Každý z vašich přepínačů může být vnořen do vlastního prvku <label>.
 Všechny související přepínače by měly mít stejný atribut pro vytvoření skupiny přepínačů. Vytvořením skupiny přepínačů výběrem jakéhokoli přepínače automaticky zrušíte výběr ostatních tlačítek v rámci stejné skupiny, přičemž uživatel zajistí pouze jednu odpověď.
 
 Zde je příklad přepínače:
-
+```html
 <label>
   <input type = "radio" name = "indoor-outdoor"> Indoor
 </label>
-
+```
 Za nejlepší postup se považuje nastavení atributu **for** na elementu <label> s hodnotou, která odpovídá hodnotě atributu id vstupního prvku. To umožňuje pomocným technologiím vytvořit propojený vztah mezi štítkem a podřízeným vstupním prvkem. 
 
 Například:
@@ -444,7 +444,7 @@ Například:
 
 Ve výchozím nastavení zaškrtněte první z vašich přepínačů a první z vašich zaškrtávacích políček.
 
-## Element <div>
+## Element div
 Element div, známý také jako dělicí prvek, je kontejnerem pro obecné použití pro jiné prvky.
 
 Prvek div je pravděpodobně nejčastěji používaným prvkem HTML ze všech.
