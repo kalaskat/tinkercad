@@ -382,9 +382,35 @@ Zde je příklad formuláře s okénkem a s tlačítkem odeslání:
 
 Přidejte tlačítko jako poslední prvek uvnitř do formuláře (pod okénko) a jako text zadejte „Odeslat“.
 
-## Další tlačítka
+## Další tlačítka - přepínače
 
-https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/create-a-set-of-radio-buttons
+Přepínače používáme pro otázky, kde chceme, aby nám uživatel dal pouze jednu odpověď z více možností.
+
+Přepínače jsou typem vstupu.
+
+Každý z vašich přepínačů může být vnořen do vlastního prvku <label>. Zabalením vstupního prvku do prvku <label> se automaticky přiřadí vstup přepínače k prvku <label>, který jej obklopuje.
+
+Všechny související přepínače by měly mít stejný atribut pro vytvoření skupiny přepínačů. Vytvořením skupiny přepínačů výběrem jakéhokoli přepínače automaticky zrušíte výběr ostatních tlačítek v rámci stejné skupiny, přičemž uživatel zajistí pouze jednu odpověď.
+
+Zde je příklad přepínače:
+
+<label>
+  <input type = "radio" name = "indoor-outdoor"> Indoor
+</label>
+
+Za nejlepší postup se považuje nastavení atributu **for** na elementu <label> s hodnotou, která odpovídá hodnotě atributu id vstupního prvku. To umožňuje pomocným technologiím vytvořit propojený vztah mezi štítkem a podřízeným vstupním prvkem. 
+
+Například:
+
+```html
+<label for = "indoor">
+  <input id = "indoor" type = "radio" name = "indoor-outdoor"> Indoor
+</label>
+```
+
+### Úkol 17
+Přidejte do formuláře pár přepínačů, každý vnořený do vlastního prvku <label>. Jeden by měl mít možnost indoor a druhý by měl mít možnost outdoor. Oba by měli sdílet atribut názvu (name) indoor-outdoor, aby vytvořili skupinu.
+
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/create-a-set-of-checkboxes
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/use-the-value-attribute-with-radio-buttons-and-checkboxes
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/check-radio-buttons-and-checkboxes-by-default
