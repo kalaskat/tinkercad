@@ -411,7 +411,26 @@ Například:
 ### Úkol 17
 Přidejte do formuláře pár přepínačů, každý vnořený do vlastního prvku <label>. Jeden by měl mít možnost indoor a druhý by měl mít možnost outdoor. Oba by měli sdílet atribut názvu (name) indoor-outdoor, aby vytvořili skupinu.
 
-https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/create-a-set-of-checkboxes
+## Zaškrtávání více odpovědí
+Pokud chceme uživateli dovolit zaškrtnout více odpovědí, používáme tzv. checkboxy neboli zaškrtávací políčka.
+
+Zaškrtávací políčka jsou typem vstupu.
+
+Každé z vašich zaškrtávacích políček lze vnořit do vlastního prvku <label>. Obalením vstupního prvku uvnitř prvku <label> automaticky přiřadí vstup zaškrtávacího pole k prvku <label>, který jej obklopuje.
+
+Všechny související vstupy zaškrtávacího políčka by měly mít stejný atribut názvu (stejné **name**).
+
+Doporučuje se výslovně definovat vztah mezi vstupem zaškrtávacího políčka a jeho odpovídajícím štítkem nastavením atributu for na prvku label tak, aby odpovídal atributu id přidruženého vstupního prvku.
+
+Zde je příklad zaškrtávacího políčka:
+```html
+<label for = "loving"> <input id = "loving" type = "checkbox" name = "personality"> Loving </label>
+```
+
+### Úkol 18
+Přidejte do formuláře sadu tří zaškrtávacích políček. Každé zaškrtávací políčko by mělo být vnořeno do vlastního prvku štítku. Všichni tři by měli sdílet atribut jména `osobnost`.
+
+
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/use-the-value-attribute-with-radio-buttons-and-checkboxes
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/check-radio-buttons-and-checkboxes-by-default
 https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/nest-many-elements-within-a-single-div-element
