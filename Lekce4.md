@@ -449,7 +449,7 @@ Element div, známý také jako dělicí prvek, je kontejnerem pro obecné použ
 
 Prvek div je pravděpodobně nejčastěji používaným prvkem HTML ze všech.
 
-Stejně jako každý jiný nesepínací prvek můžete prvek div otevřít pomocí <div> a zavřít jej na jiném řádku pomocí </div>.
+Stejně jako každý jiný nesepínací prvek můžete prvek div otevřít pomocí `<div>` a zavřít jej na jiném řádku pomocí `</div>`.
 
 ### Úkol 20
 
