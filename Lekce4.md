@@ -428,11 +428,33 @@ Zde je příklad zaškrtávacího políčka:
 ```
 
 ### Úkol 18
-Přidejte do formuláře sadu tří zaškrtávacích políček. Každé zaškrtávací políčko by mělo být vnořeno do vlastního prvku štítku. Všichni tři by měli sdílet atribut jména `osobnost`.
 
+Přidejte do formuláře sadu tří zaškrtávacích políček. Každé zaškrtávací políčko by mělo být vnořeno do vlastního prvku štítku. Všichni tři by měli sdílet atribut jména (name = ) `osobnost`.
 
-https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/use-the-value-attribute-with-radio-buttons-and-checkboxes
-https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/check-radio-buttons-and-checkboxes-by-default
-https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/nest-many-elements-within-a-single-div-element
+## Zaškrtnutí políček na začátku
+
+Můžete nastavit zaškrtávací políčko nebo přepínač, který bude ve výchozím nastavení zaškrtnut tak jak chcete.
+Chcete-li to provést, stačí přidat slovo "checked" do vnitřku vstupního prvku. 
+Například:
+```html
+<input type = "radio" name = "test-name" checked ">
+```
+
+### Úkol 19
+
+Ve výchozím nastavení zaškrtněte první z vašich přepínačů a první z vašich zaškrtávacích políček.
+
+## Element <div>
+Element div, známý také jako dělicí prvek, je kontejnerem pro obecné použití pro jiné prvky.
+
+Prvek div je pravděpodobně nejčastěji používaným prvkem HTML ze všech.
+
+Stejně jako každý jiný nesepínací prvek můžete prvek div otevřít pomocí <div> a zavřít jej na jiném řádku pomocí </div>.
+
+### Úkol 20
+
+Vnořte své seznamy „Věci, které kočky milují“ a „Věci, které kočky nenávidí“, vše do jednoho prvku div.
+
+Tip: Zkuste umístit úvodní značku div nad prvek <p> „Kočky milují:“ a značku uzavírání div za značku uzavírání ol tak, aby oba seznamy byly v rámci jednoho div.
 
 
